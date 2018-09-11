@@ -1,0 +1,71 @@
+
+body {
+  background-color: white;
+  font-family: Helvetica;
+}
+
+#banner {
+  background-color: LightGrey;
+  width: 80%;
+  height: 200px;
+}
+
+#banner .content h1{
+  position: relative;
+  width: inherit;
+  height: inherit;
+  top: 50px;
+  margin: 0 auto;
+
+}
+
+#main {
+  width: 80%;
+  padding: 40px 0px;
+
+}
+
+#main .content h2{
+  /*width: 80%; */
+  padding: 20px 40px;
+}
+
+#main .content p{
+
+}
+h1 {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 42px;
+}
+
+h2 {
+
+  border-bottom: 1px solid grey;
+  padding: 30px 20px;
+}
+.navigation {
+  border: 1px solid LightGrey;
+  padding: 10px 0px;
+  position: relative;
+  text-align: center;
+  width: 80%;
+}
+
+.navigation a {
+  background-color: #9DD1F1;
+  border: 1px solid black;
+  border-radius: 3px;
+  color: #004E89;
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.share a:hover {
+  background: white;
+  border: 1px solid red;
+  color: red;
+}
